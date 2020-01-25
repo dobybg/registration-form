@@ -29,7 +29,7 @@ export default class SignUp extends React.Component {
 
     try {
       let response = await fetch(
-        "http://aqueous-reef-49791.herokuapp.com/sign_up",
+        "http://cryptic-basin-27673.herokuapp.com/sign_up",
         {
           method: "POST",
           headers: {
